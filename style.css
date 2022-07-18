@@ -52,7 +52,7 @@ body {
 
 .title{
     height: 960px;
-    background: url("https://github.com/hexschool/2022-web-layout-training/blob/main/week2/banner.png?raw=true") no-repeat;
+    background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week2/banner.png?raw=true) no-repeat;
 }
 
 .content{
