@@ -1,3 +1,273 @@
-h1{
-    color: navajowhite;
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
 }
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft JhengHei", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+
+
+
+
+.title{
+    height: 960px;
+    background: url(../banner.png) no-repeat;
+}
+
+.content{
+    width: 304px;
+    padding-left: 806px;
+    padding-right: 810px;
+    padding-top: 308px;
+}
+
+.content h1{
+    
+    text-align: left;
+    color: white;
+    font-size: 80px;
+    line-height: 106px;
+    
+}
+
+
+.subject p{
+    font-size: 24px;
+    text-align: left;
+    height: 32px;
+    color: white;
+
+}
+
+.introduction{
+    font-size: 22px;
+    text-align: left;
+    line-height: 36px;
+    color: white;
+    margin-top: 32px;
+    width: 283px;
+    
+}
+
+.link {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 40px;
+}
+
+.container{
+    width: 384px;
+    padding-left:  768px;
+    padding-right: 768px;
+}
+
+.container h2{
+    text-align: center;
+    font-size: 64px;
+    line-height: 84px;
+    margin-top: 56px;
+    margin-bottom: 40px; 
+    color: black;
+}
+.information {
+    width: 412px;
+    text-align: center;
+    color: black;
+    font-size: 22px;
+    margin-top: 20px;
+
+}
+
+.information p{
+    line-height: 42px;
+}
+.school p{
+    line-height: 36px;
+}
+.school{
+    padding-bottom: 24px;
+    border-bottom: 1px solid black;
+    margin-top: 8px;
+}
+
+.information ul{
+    line-height: 42px;
+    margin-top: 28px;
+    margin-bottom: 56px;
+    text-align: center;
+
+}
+.information li{
+    display: flex;
+    margin-bottom: 28px;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.dot{
+    margin: 6px;
+    width: 22px;
+    height: 22px;
+    background-color: #891818;
+    border-radius: 22px;
+    margin-right: 16px;
+
+}
+
+.slogan{
+    background-color: black;
+}
+.box{
+    width: 494px;
+    padding-left: 712px;
+    padding-right: 712px;
+    color: white;
+    text-align: center;
+    padding-bottom: 68px;
+}
+
+.box h2{
+   font-size: 64px;
+   line-height: 84px;
+   padding-top: 56px;
+   padding-bottom: 12px;
+}
+
+.box h3{
+    font-size: 24px;
+    line-height: 42px;
+    padding-bottom: 32px;
+}
+
+.box p{
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.photo{
+    display: flex;
+    justify-content: center;
+}
+
+.secondRow{
+    width: 1200px;
+    padding-left: 360px;
+    padding-right: 360px;
+    padding-top: 40px;
+    padding-bottom: 160px;
+    display: flex;
+    justify-content: space-around
+}
+
+.otherworks{
+    margin-top: 56px;
+    margin-bottom: 8px;
+    text-align: center;
+    color: black;
+}
+
+.otherworks h2{
+    padding-bottom: 16px;
+    line-height: 84px;
+    font-size: 64px;
+}
+
+.otherworks p{
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.works{
+    padding-left: 360px;
+    padding-right: 360px;
+    width: 1200px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-bottom: 144px;
+}
+
+.works img{
+    padding-bottom: 16px;
+    padding-top: 48px;
+}
+
+.discription{
+    display: flex;
+    justify-content: space-around;
+    width: 1200px;
+
+}
+
+.discription p{
+    display: block;
+    font-size: 20px;
+    line-height: 42px;
+}
+
+.footer{
+    background-color:black;
+    color: white;
+    text-align: center;
+}
+
+.footer h2{
+    padding-top: 64px;
+    padding-bottom: 16px;
+    font-size: 64px;
+    line-height: 84px;
+}
+
+.footer li{
+   font-size: 24px;
+   line-height: 36px; 
+   padding-bottom: 16px;
+}
+
+.footer ul{
+    padding-bottom: 64px;
+}
+
